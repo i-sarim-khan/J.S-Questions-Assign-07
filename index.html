@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Question # 01 -->
+    <a href="#" id="myLink" onclick="showAlertlink()">Click me to show an alert</a>
+    
+    <!-- Question # 03 -->
+    <h1>Student Records</h1>
+    <table id="studentTable" border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>sarim</td>
+            <td>20</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Shariq</td>
+            <td>27</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Sumiar</td>
+            <td>23</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Azain</td>
+            <td>21</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Zain</td>
+            <td>24</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Ata-ul-Mustafa</td>
+            <td>25</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Saad Taqi</td>
+            <td>22</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Kunal</td>
+            <td>24</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Rizwan</td>
+            <td>20</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Hammad</td>
+            <td>25</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+    </table>
+
+    <!-- Question # 04 -->
+    <div id="imageContainer">
+        <img id="image" src="first-image.jpg" alt="First Image" onmouseover="changeImage()" onmouseout="resetImage()">
+    </div>
+        <!-- Question # 05 -->
+    <h1>Counter</h1>
+    <p>Counter Value: <span id="counter">0</span></p>
+    <button id="increaseBtn">Increase</button>
+    <button id="decreaseBtn">Decrease</button>
+    <script src="app.js"></script>
+</body>
+</html>
